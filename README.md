@@ -2,11 +2,11 @@
 
 # Cookie Bot
 
-Cookie Bot est un bot Dofus codé en C\# et OpenSource.
+Cookie Bot is a Dofus bot coded in C\# it is OpenSource.
 
 ---
 
-**Créateur:** [yovanoc](https://github.com/yovanoc)
+**Author:** [yovanoc](https://github.com/yovanoc)
 
 **GitHub:** [https://github.com/yovanoc/Cookie](https://github.com/yovanoc/Cookie)
 
@@ -16,7 +16,7 @@ Cookie Bot est un bot Dofus codé en C\# et OpenSource.
 
 **Forum:** [https://forum.cookie-project.com/](https://forum.cookie-project.com/)
 
-**Autres Version:**
+**Other Versions:**
 
 * **.NET Core:** [https://github.com/yovanoc/CookieCore](https://github.com/yovanoc/CookieCore)
 * **NodeJS:** [https://github.com/yovanoc/cookiejs](https://github.com/yovanoc/cookiejs)
@@ -24,5 +24,5 @@ Cookie Bot est un bot Dofus codé en C\# et OpenSource.
 
 ---
 
-**Auteur:** The Falcon \(Alias **\[\]** sur Discord\)
+**Writter:** The Falcon \(Alias **\[\]** sur Discord\)
 
