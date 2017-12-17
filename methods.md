@@ -1,6 +1,6 @@
 # Clone the GitHub
 
-Il vous faudra tout d'abords une copie du projet.
+IlFirst you should mudra tout d'abords une copie du projet.
 
 Soit télécharger le ici:
 
