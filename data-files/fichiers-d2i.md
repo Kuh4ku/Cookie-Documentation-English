@@ -51,7 +51,7 @@ The UI messages are messages which are given in certain packets that don't use t
 
 At the end of the file there is some extra data which I haven't had time to analyze yet.
 
-### _Schéma_
+### _Diagram_
 
 ![](/assets/total.PNG)
 
