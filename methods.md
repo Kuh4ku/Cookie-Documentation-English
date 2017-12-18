@@ -1,12 +1,12 @@
 # Clone the GitHub
 
-IlFirst you should mudra tout d'abords une copie du projet.
+First you should make a copy of the project.
 
-Soit télécharger le ici:
+Download it here:
 
 [Cookie GitHub](https://github.com/yovanoc/Cookie)
 
-Soit cloner le projet avec Git:
+Or you can clone it with GitHub:
 
 ```batch
 git clone https://github.com/yovanoc/Cookie.git
@@ -14,29 +14,29 @@ git clone https://github.com/yovanoc/Cookie.git
 
 # Compilation
 
-Une fois le projet installé dans le même dossier que **Cookie.exe** il faudra créer un dossier **config** le fichier:
+Once the project installed in the dame folder as the **Cookie.exe** you will need to create a foler named **config** and the two following files:
 
 * **config/dofuspath.txt**
 * **config/account.txt**
 
-Avec le contenue suivant:
+With the follwing content:
 
-* Chemin du dossier dofus
-* Nom de compte et mot de passe
+* Path to the dofus directory
+* Username and Password
 
 **dofuspath.txt**
 
 ```
-C:\Users\NOM D'UTILISATEUR\AppData\Local\Ankama\Dofus
+C:\Users\%USERNAME%\AppData\Local\Ankama\Dofus
 ```
 
 **account.txt**
 
 ```
-NomDeCompte:MotDePasse
+Username:Password
 ```
 
-Après il vous suffit de build le projet ou de Debug et tout est bon!
+After this simply build the project or launch the debug and everything should be working!
 
 ![](/assets/af7e7a14a1.png)
 
