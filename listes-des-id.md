@@ -1,8 +1,8 @@
-# Liste des fichiers
+# Liste of Files
 
-Ceci est une liste des ID des objets, metiers, monstres, ressources.
+Here is a list of the IDs of Objects, Professions, Monsters, Ressources.
 
-Toujours pratique pour trouver un objet rapidement!
+This can be very useful for many purposes.
 
 * <a href="Files/IDS/objets.txt" target="_blank">Files/IDS/objets.txt</a>
 * <a href="Files/IDS/metiers.txt" target="_blank">Files/IDS/metiers.txt</a>
@@ -11,7 +11,7 @@ Toujours pratique pour trouver un objet rapidement!
 
 
 
-# Exemple de fichier:
+# Example of file:
 
 ```
 44 - Epée de Boisaille
