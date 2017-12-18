@@ -7,7 +7,7 @@
 ## Methods
 
 * [1. Installations ](methods.md)
-* [2. Listes des ID](listes-des-id.md)
+* [2. Lists of IDs](listes-des-id.md)
 
 ## Data Files
 
