@@ -8,6 +8,10 @@ This can be very useful for many purposes.
 * <a href="Files/IDS/metiers.txt" target="_blank">Files/IDS/metiers.txt</a>
 * <a href="Files/IDS/monstres.txt" target="_blank">Files/IDS/monstres.txt</a>
 * <a href="Files/IDS/ressources.txt" target="_blank">Files/IDS/ressources.txt</a>
+* <a href="Files/IDS/messages.txt" target="_blank">Files/IDS/messages.txt</a>
+
+
+
 
 
 

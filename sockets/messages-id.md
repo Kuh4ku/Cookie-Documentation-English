@@ -1,11 +1,11 @@
-# ID des Messages
+# Message IDs
 
-Voici une liste des ID et du nom des messages à gérer.
+Here is a list of all the message IDs to handle.
 
 * <a href="../Files/IDS/messages.txt" target="_blank">Files/IDS/messages.txt</a>
 
 
-# Exemple de fichier:
+# Example of file:
 
 ```
 1 = ProtocolRequired;
