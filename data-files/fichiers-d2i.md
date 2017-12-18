@@ -4,52 +4,52 @@
 
 ## Introduction
 
-Le format D2I est un format utilisé par Ankama pour stocker des chaînes de caractères \(string\) comme par exemple les noms d’items ou dialogues et plus. Ce fichier varie en fonction de la langue mais la structure reste la même.
+The d2i format is used by Ankama to save the strings from the game for example: item name, dialogues, etc... The file varies from different languages but the structure stays the same.
 
-## La Structure
+## The Structure
 
-### _Le Fichier_
+### _The File_
 
-Le fichier est lui composé en 4 majeures parties:
+The file is composed of four major parts:
 
-* Les Datas
-* Les Indexes
-* Les UI Messages
-* de l'extra data
+* The Datas
+* The Indexes
+* The UI Messages
+* some extra data
 
-Chacune des ces parties sont composées d'un Index \(**4 bytes**\) donnant la taille des données qui suivent hormis l'extra data.
+Each of those parts is composed of an Index \(**4 bytes**\) giving the size of the data that will follow except for the extra data.
 
-### _Les Datas_
+### _The Datas_
 
-Les datas sont eux composés de 3 parties:
+The datas are composed of three parts:
 
-* Taille de tous les datas \(**4 bytes**\)
-* Taille de la chaîne de caractères \(**2 bytes orange**\)
-* La chaîne de caractères en UTF-8 \(**X bytes gris**\)
+* Size of all datas \(**4 bytes**\)
+* Size of the string \(**2 bytes orange**\)
+* The string in UTF-8 \(**X bytes gris**\)
 
 ![](/assets/data.PNG)
 
-### _Les indexes_
+### _The indexes_
 
-Les Indexes eux depuis la mise à jour 2.4X sont plus complexe avec l'introduction des diacritiques \( la chaîne de caractères sans accents ou majuscules\).
+The Indexes since the 2.4X update have become a bit more complicated. The notion of diacritical was introduced \(string without capitals or accents\).
 
-* Taille de tous les indexes \(**4 bytes**\)
-* l'ID de la chaîne ; généralement appelé dans les d2o \(**4 bytes orange**\)
-* Diacritique existant? \(**boolean**\)\(**1 byte bleu clair**\)
-* Pointeur vers la chaîne \(**4 bytes marron**\)
-* Si diacritique existe Pointeur vers la chaîne diacritique \(**4 bytes bleu marine**\)
+* Size of all the indexes \(**4 bytes**\)
+* ID of the string; usually called in the d2o files \(**4 bytes orange**\)
+* Diacritical Exists? \(**boolean**\)\(**1 byte light blue **\)
+* Pointer to the string \(**4 bytes brown**\)
+* If diacritical exists then Pointer to the diacritical string \(**4 bytes dark blue**\)
 
 ![](/assets/indexes.PNG)
 
-### _Les UI messages_
+### _The UI messages_
 
-Les UI messages sont des messages qui sont donnés dans certain paquets mais qui ne permette pas d'avoir un ID \(integer qui pointe vers le texte\)
+The UI messages are messages which are given in certain packets that don't use the ID system
 
 **Example:** ui.message.check0
 
-### _L'extra data_
+### _Extra data_
 
-N'ayant pas vraiment eu le temps de me pencher dessus je ne sais pas son contenue ou son utilité pour l'instant.
+At the end of the file there is some extra data which I haven't had time to analyze yet.
 
 ### _Schéma_
 
