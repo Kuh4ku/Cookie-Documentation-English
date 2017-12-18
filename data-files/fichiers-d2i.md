@@ -1,14 +1,14 @@
-# Fichiers D2I
+# D2I Files
 
 ---
 
-## Introduction 
+## Introduction
 
 Le format D2I est un format utilisé par Ankama pour stocker des chaînes de caractères \(string\) comme par exemple les noms d’items ou dialogues et plus. Ce fichier varie en fonction de la langue mais la structure reste la même.
 
 ## La Structure
 
-###     _Le Fichier_
+### _Le Fichier_
 
 Le fichier est lui composé en 4 majeures parties:
 
@@ -19,7 +19,7 @@ Le fichier est lui composé en 4 majeures parties:
 
 Chacune des ces parties sont composées d'un Index \(**4 bytes**\) donnant la taille des données qui suivent hormis l'extra data.
 
-###     _Les Datas_
+### _Les Datas_
 
 Les datas sont eux composés de 3 parties:
 
@@ -29,7 +29,7 @@ Les datas sont eux composés de 3 parties:
 
 ![](/assets/data.PNG)
 
-###     _Les indexes_
+### _Les indexes_
 
 Les Indexes eux depuis la mise à jour 2.4X sont plus complexe avec l'introduction des diacritiques \( la chaîne de caractères sans accents ou majuscules\).
 
@@ -41,23 +41,19 @@ Les Indexes eux depuis la mise à jour 2.4X sont plus complexe avec l'introducti
 
 ![](/assets/indexes.PNG)
 
-###     _Les UI messages_
+### _Les UI messages_
 
 Les UI messages sont des messages qui sont donnés dans certain paquets mais qui ne permette pas d'avoir un ID \(integer qui pointe vers le texte\)
 
 **Example:** ui.message.check0
 
-
-
-###     _L'extra data_
+### _L'extra data_
 
 N'ayant pas vraiment eu le temps de me pencher dessus je ne sais pas son contenue ou son utilité pour l'instant.
 
-###     _Schéma_
+### _Schéma_
 
 ![](/assets/total.PNG)
-
-
 
 ### 
 
