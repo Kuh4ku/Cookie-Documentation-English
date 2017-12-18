@@ -14,7 +14,7 @@ git clone https://github.com/yovanoc/Cookie.git
 
 # Compilation
 
-Once the project installed in the dame folder as the **Cookie.exe** you will need to create a foler named **config** and the two following files:
+Once the project installed in the game folder as the **Cookie.exe** you will need to create a folder named **config** and the two following files:
 
 * **config/dofuspath.txt**
 * **config/account.txt**
