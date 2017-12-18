@@ -19,7 +19,7 @@
 * [Files](sockets/files.md)
 * [Messages ID](sockets/messages-id.md)
 
-## Mise à Jour Dofus
+## Dofus Updates
 
-* [20 Juin - 2.42.0.121463.6 ](mise-a-jour-dofus/20-juin-24201214636.md)
+* [20 June 2017 - 2.42.0.121463.6 ](mise-a-jour-dofus/20-juin-24201214636.md)
 
